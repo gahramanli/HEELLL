@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+.ourrr{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .header{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        h6{
+            font-weight: 500;
+            font-size: 36px;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+    .ourcards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 60vh;
+
+        .cardd{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 30px;
+
+            .oouu{
+                width: 400px;
+                height: 300px;
+            }
+            .texts{
+                width: 400px;
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                background-color: #F8F9FB;
+
+                h1{
+                    font-weight: 500;
+                    font-size: 22px;
+                    font-family: 'Roboto', sans-serif;
+
+                }
+                h2{
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: #CDCECB;
+                        font-family: 'Roboto', sans-serif;
+
+
+                }
+            }
+            .foot{
+                width: 400px;
+                height: 70px;
+                background-color: #EAEBEC;
+                display: flex;
+                align-items: center;
+            
+
+                img{
+                    border-radius: 100px;
+                    margin-left: 20px;
+                }
+                h3{
+                    font-weight: 500;
+                    font-size: 14px;
+                    font-family: 'Roboto', sans-serif;
+                    color: black;
+                    margin-left: 20px;
+                    width: 100px;
+                }
+                h4{
+                    font-weight: 500;
+                    font-size: 14px;
+                    font-family: 'Roboto', sans-serif;
+                    color: #A5A5A5;
+                    margin-left: 10px;
+                }
+                .oool{
+                    display: flex;
+                    justify-content: center;
+                    height: 70px;
+                    width: 80px;
+                    align-items: center;
+                    text-align: center;
+                    background-color: #FFB606;
+                    margin-left: 90px;
+
+                    h5{
+                        font-weight: 500;
+                        font-size: 18px;
+                        color: white;
+                        font-family: 'Roboto', sans-serif;
+
+    
+    
+                    }
+                }
+            }
+        }
+
+    }
+}
